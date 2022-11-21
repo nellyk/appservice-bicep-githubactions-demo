@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: app
-          path: "./bin/Release/net6.0/publish/"
+          path: "./bin/Release/net7.0/publish/"
 
       - name: Publish Infra artifact
         uses: actions/upload-artifact@v3
